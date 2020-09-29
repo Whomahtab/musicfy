@@ -5,7 +5,8 @@
 }
 
 html,body{
-	font-family: Corbel!important;
+	
+	font-family: 'Montserrat', sans-serif!important;
 	user-select: none;
 	overflow-y: hidden;
 }
@@ -127,10 +128,14 @@ Padding
 	justify-content: space-between;
 }
 .song-name{
+	
+font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 	font-size: 22px;
 }
 .artist-name{
+	
+font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	color: #ccc;
 }
