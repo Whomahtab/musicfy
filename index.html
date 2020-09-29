@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Musicfy 2.0.0</title>
+	<!-- css-files -->
+	<link rel="stylesheet" href="assets/makup-max.css">
+</head>
+<body>
+		<div class="player-wrapper">
+			<!-- <div class="bg-wrapper">
+				<div class="bg-left"></div>
+				<div class="bg-right"></div>
+			</div> -->
+			<div class="player-element">
+				<div class="player-header">
+					<div class="arrowdownIcon">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+					</div>
+					<div class="player-title">
+						<h5>Playing Now</h5>
+					</div>
+					<div class="listIcon">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+					</div>
+				</div>
+				<div class="player-album-art">
+					<img src="assets/album-art.jpg" alt="">					
+				</div>
+
+				<div class="player-footer">
+					<div class="song-info">
+						<div class="song-name">
+							<!-- last dance -->
+							<p class="pt-3 artist-name">
+								<!-- Rhye -->
+							</p>
+						</div>
+
+						<div class="heart-icon">
+							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+						</div>
+					</div>
+					<div class="duration-wrapper">
+						<div class="duration-timeline">
+							<div class="durationCurrent-timeline"></div>
+						</div>
+						<div class="audio-duration-info">
+							<span class="audCurrent-time"></span>
+							<span class="audTotal-time">00:00</span>
+						</div>
+					</div>
+
+					<!-- audio_action's -->
+					<div class="AudAct-wrapper">
+							<div class="backwordIcon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M4.555 5.168A1 1 0 003 6v8a1 1 0 001.555.832L10 11.202V14a1 1 0 001.555.832l6-4a1 1 0 000-1.664l-6-4A1 1 0 0010 6v2.798l-5.445-3.63z" />
+</svg>
+						</div>
+						<div class="playpauseBtn">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" id='playIcon'>
+                           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" id="pauseIcon" style='display: none'>
+  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+</svg>
+						</div>
+
+						<div class="forwadIcon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M4.555 5.168A1 1 0 003 6v8a1 1 0 001.555.832L10 11.202V14a1 1 0 001.555.832l6-4a1 1 0 000-1.664l-6-4A1 1 0 0010 6v2.798l-5.445-3.63z" />
+</svg>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<!-- Audio -->
+		<audio src="sound/Attention.mp3" class="audio"></audio>
+	<!-- scriptJS -->
+	<script type="text/javascript" src="assets/function.js"></script>
+	<!-- <script type="text/javascript" src="assets/action.js"></script> -->
+</body>
+</html>
