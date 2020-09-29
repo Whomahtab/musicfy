@@ -209,5 +209,6 @@ Padding
 	.player-wrapper{
 		margin: 0 0px;
 		width: 100%;
+		border-radius: 0px;
 	}
  }
